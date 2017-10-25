@@ -21,7 +21,6 @@ var qrcode = new QRCode(document.getElementById('qrcode'),{
   //  text:"Marca: "+brand+"   Modelo: "+model+"  MacAddress: "+mac+"  Serial: "+serial,
   text:"{  'MARCA':'"+brand+
   "', 'MODELO':'"+model+
-  "',  'MAC':'"+mac+
   "',  'SERIAL':'"+serial+
   "',  'ID':"+id+"  }",
   width:128,

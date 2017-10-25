@@ -1,5 +1,5 @@
 body{
-  height: 120vh;
+  height: 100vh;
   width: 100vw;
   margin: 0px;
   background-color: silver;
@@ -14,11 +14,11 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 .first-wraper{
-  height: 30%;
-  width: auto;
+  height: 100%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,8 +27,9 @@ body{
 }
 
 .second-wraper{
-  height: 70%;
-  width: 100%;
+
+  width: 50%;
+  height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -43,8 +44,10 @@ body{
   height:100%;
 }
 form{
-  width: 50%;
+  width: 100%;
   font-family: 'Roboto';
+  margin: 0px;
+
 }
 input{
   min-width: 80%;
@@ -60,7 +63,7 @@ input[type=submit]{
 }
 h3{
   font-family: 'Roboto';
-  margin: 0px;
+  margin: 5px;
 }
 
 .hide{
